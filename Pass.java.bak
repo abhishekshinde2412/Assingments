@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Pass
+{public static void main(String arg[])
+	{
+		double mark;
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter the marks");
+		mark=sc.nextDouble();
+		
+		if (mark<50)
+		{
+			System.out.println("fail");
+		}
+		else if (mark >= 50 && mark <= 60)
+		{
+			System.out.println("D grade");
+		}
+		}
+	}
+	
+	
